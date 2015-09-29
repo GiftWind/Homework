@@ -7,6 +7,7 @@ public class UsingMyStack {
 		MyStack<String> testStack = new MyStack<String>();
 		testStack.push("Hello, ").push("World").push("!");
 		System.out.println(testStack.pop() + testStack.pop() + testStack.pop());
+		testStack.pop();
 	}
 
 }
